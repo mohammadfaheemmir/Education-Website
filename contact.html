@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Euducation/css/style.css">
+    <link rel="stylesheet" href="/Euducation/css/mediaqueries.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Education Website</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <!-- <img src="./Images/logo.png" alt="Eduford"> -->
+                Education
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="course.html">Cource</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fa" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Location-->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90111584365!2d77.46578159024234!3d12.953945397394083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1705327308937!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Contact Us -->
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house fa"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Banglore Karnataka,IN</p>
+
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone fa"></i>
+                    <span>
+                        <h5>+91 2134567898</h5>
+                        <p>Monday To Friday , 9AM TO 7PM</p>
+                        
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope fa"></i>
+                    <span>
+                        <h5>someone@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                        
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="formHandler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn yellow-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quam quos at culpa iste! <br> Officia repudiandae laborum nemo dicta deserunt!</p>
+        <div class="icons">
+            <i class="fa-brands fa-github fa"></i>
+            <i class="fa-brands fa-x-twitter fa"></i>
+            <i class="fa-brands fa-linkedin-in fa"></i>
+            <i class="fa-brands fa-instagram fa"></i>
+        </div>
+        <p>Made <i class="fa-solid fa-heart heart"></i> By Mir Faheem</p>
+    </section>
+
+    
+
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/a366a9bfef.js" crossorigin="anonymous"></script>
+</body>
+</html>
